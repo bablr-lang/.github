@@ -7,17 +7,17 @@ This project redefines what a parser is, formalizing its role in classifying cha
 
 ```cstml
   <BinaryExpression [Expression]>
-    <NumericLiteral [Expression] path="left">
-      <| Digits "2" |>
+    <NumericLiteral [Expression] path='left'>
+      <| Digits '2' |>
     </>
-    <| Trivia " " |>
-    <| Punctuator "+" path="operator" |>
-    <| Trivia " " |>
-    <[Expression] path="right"/>
+    <| Trivia ' ' |>
+    <| Punctuator '+' path='operator' |>
+    <| Trivia ' ' |>
+    <[Expression] path='right'/>
   </>
 ```
 
-Note that this tree includes not only information about what syntactic structures were found, but about those which could have been found. I also allows trees to be incomplete without being malformed. These are both crucial features in a system that supports the creation of semantic editors.
+Note that this tree includes not only information about what syntactic structures were found, but about those which could have been found. I also allows trees to be incomplete without being malformed (such as this fragment is). These are both crucial features in a system that supports the creation of semantic editors!
 
 
 Here is [an example grammar](https://gist.github.com/conartist6/5adbbf28d11497467848f530756c1c2a)
