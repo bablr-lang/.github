@@ -1,4 +1,5 @@
 # BABLR
+![come chat on Discord](https://img.shields.io/discord/1151914613089251388)
 
 The BABLR org exists to build a next-gen tooling and editor ecosystem to radically raise code literacy around the world.
 
