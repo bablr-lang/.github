@@ -3,7 +3,7 @@
 
 The BABLR org exists to build a next-gen tooling and editor ecosystem to radically raise code literacy around the world.
 
-The main repo is [bablr-vm](https://github.com/bablr-lang/bablr-vm), and you can also see [an example grammar](https://gist.github.com/conartist6/5adbbf28d11497467848f530756c1c2a).
+The main repo is [bablr-vm](https://github.com/bablr-lang/bablr-vm), and you can also see [an example grammar](https://github.com/bablr-lang/language-cstml/blob/trunk/lib/node.grammar.js).
 
 This project redefines what a parser is, formalizing its role in classifying characters into typed tokens, and grouping typed tokens into nodes. A parser's output can now be represented in a new format, CSTML (Concrete Syntax Tree Markup Language), which looks like this:
 
