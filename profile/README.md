@@ -1,11 +1,9 @@
 # BABLR
 ![come chat on Discord](https://img.shields.io/discord/1151914613089251388)
 
-The BABLR org exists to build a next-gen tooling and editor ecosystem to radically raise code literacy around the world.
+The BABLR organization's mission is to build next-gen tooling ecosystem to radically raise code literacy around the world. It aims to do this by creating standard structural representations of code. Much current developer suffering comes from the fact that developers use a wide variety of tools in their work, and these tools interoperate poorly with each other. The particular problem is the absence of any format for code (other than plain text) that all tools share. BABLR introduces agAST (a generalized Abstract Syntax Tree) which is a data structure which can store (or help rewrite) programs written in any language.
 
 The main repo is [bablr-vm](https://github.com/bablr-lang/bablr-vm), and you can also see [an example grammar](https://github.com/bablr-lang/language-cstml/blob/trunk/lib/node.grammar.js).
-
-This project redefines what a parser is, formalizing its role in classifying characters into typed tokens, and grouping typed tokens into nodes. A parser's output can now be represented in a new format, CSTML (Concrete Syntax Tree Markup Language), which looks like this:
 
 ```cstml
   <BinaryExpression [Expression]>
