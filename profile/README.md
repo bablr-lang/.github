@@ -1,5 +1,5 @@
 # BABLR
-![come chat on Discord](https://img.shields.io/discord/1151914613089251388)
+[![come chat on Discord](https://img.shields.io/discord/1151914613089251388)](https://discord.gg/NfMNyYN6cX)
 
 The BABLR organization's mission is to build next-gen tooling ecosystem to radically raise code literacy around the world. It aims to do this by creating standard structural representations of code. Much current developer suffering comes from the fact that developers use a wide variety of tools in their work, and these tools interoperate poorly with each other. The particular problem is the absence of any format for code (other than plain text) that all tools share. BABLR introduces agAST (a generalized Abstract Syntax Tree) which is a data structure which can store (or help rewrite) programs written in any language.
 
