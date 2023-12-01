@@ -5,6 +5,9 @@ The BABLR organization's mission is to build next-gen tooling ecosystem to radic
 
 There are several closely related technologies under development to solve the problem: CSTML (a serialization format for parsed code), agAST (a JS in-memory sturcture for storing parsed code), and Spamex (a regex-like langauge with structural matching). Each of these technologies is designed to be larger than the BABLR organization and would likely be subject to formal standardization if they are informally successful, as is often the way of things with the web. Instead of writing a formal specification for these technologies, I have instead opted to define them in terms of a reference VM built in Javascript: [bablr-vm]([bablr-vm](https://github.com/bablr-lang/bablr-vm)). This newly-developed streaming parser core which parses code into agAST trees, CSTML documents, or CSTML-ish streams. Because the formats are defined by `bablr-vm` (and `bablr-vm` is in alpha), the formats should also be considered to be in alpha and are subject to change at any time up until `bablr-vm@1.0.0`. For that reason work on stabilizing the vm and these formats is proceeding with all possible haste.
 
+
+## CSTML
+
 Let's say we have a simple JSON expression like this ([playground](https://codesandbox.io/p/sandbox/blissful-sky-sgvdpz?file=%2Fsrc%2Fjson.grammar.js%3A34%2C47)):
 ```json
 [1,true,"3"]
