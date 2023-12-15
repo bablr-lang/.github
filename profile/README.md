@@ -10,57 +10,75 @@ There are several closely related technologies under development to solve the pr
 
 Let's say we have a simple JSON expression like this ([playground](https://codesandbox.io/p/sandbox/blissful-sky-sgvdpz?file=%2Fsrc%2Fjson.grammar.js%3A34%2C47)):
 ```json
-[1,true,"3"]
+[1, true, "3"]
 ```
 
 A CSTML represention of the same data will be much more verbose, and it will always contain the complete original text embedded inside it. This is not a format that you are likely to read directly (very often), instead more likely this data will be used to construct a much denser (literal) representation (like the one above) where the extra data is expressed as colorful syntax highlighting and other rich editor features which can enhance rendering and interactivity of the embedded code.
 
 ```cstml
-<Array>
-  open:
-  <Punctuator balanced=']'>
-    '['
-  </>
-  elements[]:
-  <Number>
-    digits:
-    <Digit>
-      '1'
-    </>
-  </>
-  separators[]:
-  <Punctuator>
-    ','
-  </>
-  elements[]:
-  <Boolean>
-    value:
-    <Keyword>
-      'true'
-    </>
-  </>
-  separators[]:
-  <Punctuator>
-    ','
-  </>
-  elements[]:
-  <String>
+<>
+  children[]:
+  <Array>
     open:
-    <Punctuator balanced='"' innerSpan='String'>
-      '"'
+    <Punctuator balanced=']'>
+      '['
     </>
-    content:
-    <StringContent>
-      '3'
+    elements[]:
+    <Number span='Number'>
+      wholePart:
+      <Integer>
+        sign:
+        null
+        digits[]:
+        <Digit>
+          '1'
+        </>
+      </>
+      fractionalSeparator:
+      null
+      fractionalPart:
+      null
+      exponentSeparator:
+      null
+      exponentPart:
+      null
+    </>
+    separators[]:
+    <Punctuator>
+      ','
+    </>
+    #' '
+    elements[]:
+    <Boolean>
+      value:
+      <Keyword>
+        'true'
+      </>
+    </>
+    separators[]:
+    <Punctuator>
+      ','
+    </>
+    #' '
+    elements[]:
+    <String>
+      open:
+      <Punctuator balanced='"' lexicalSpan='String'>
+        '"'
+      </>
+      content:
+      <StringContent>
+        '3'
+      </>
+      close:
+      <Punctuator balancer>
+        '"'
+      </>
     </>
     close:
     <Punctuator balancer>
-      '"'
+      ']'
     </>
-  </>
-  close:
-  <Punctuator balancer>
-    ']'
   </>
 </>
 ```
