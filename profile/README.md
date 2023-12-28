@@ -8,7 +8,7 @@ There are several closely related technologies under development to solve the pr
 
 ## CSTML
 
-Let's say we have a simple JSON expression like this ([playground](https://codesandbox.io/p/sandbox/blissful-sky-sgvdpz?file=%2Fsrc%2Fjson.grammar.js%3A34%2C47)):
+Let's say we have a simple JSON expression like this ([playground](https://sgvdpz.csb.app/)):
 ```json
 [1, true, "3"]
 ```
