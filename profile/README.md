@@ -86,13 +86,13 @@ A CSTML represention of the same data will be much more verbose, and it will alw
       exponentPart: null
     </>
     separators[]: <*Punctuator ',' />
-    <#*Space:Space ' ' />
+    #: <*Space:Space ' ' />
     elements[]$:
     <$Boolean>
       sigilToken: <*Keyword 'true' />
     </>
     separators[]: <*Punctuator ',' />
-    <#*Space:Space ' ' />
+    #: <*Space:Space ' ' />
     elements[]$:
     <$String>
       openToken: <*Punctuator '"' balanced='"' balancedSpan='String' />
