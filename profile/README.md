@@ -67,16 +67,16 @@ Let's say we have a simple JSON expression like this:
 A CSTML represention of the same data will be much more verbose, and it will always contain the complete original text embedded inside it. This is not a format that you are likely to read directly (very often), instead more likely this data will be used to construct a much denser (literal) representation (like the one above) where the extra data is expressed as colorful syntax highlighting and other rich editor features which can enhance rendering and interactivity of the embedded code.
 
 ```cstml
-<$>
+<>
   .:
-  <$Array>
+  <Array>
     openToken: <*Punctuator '[' balanced=']' />
     separators[]: []
-    elements[]$: []
-    elements[]$:
-    <$Number span='Number'>
+    elements[]: []
+    elements[]:
+    <Number span='Number'>
       wholePart:
-      <$Integer>
+      <Integer>
         signToken: null
         value: <*UnsignedInteger '1' noDoubleZero />
       </>
@@ -87,14 +87,14 @@ A CSTML represention of the same data will be much more verbose, and it will alw
     </>
     separators[]: <*Punctuator ',' />
     #: <*Space:Space ' ' />
-    elements[]$:
-    <$Boolean>
+    elements[]:
+    <Boolean>
       sigilToken: <*Keyword 'true' />
     </>
     separators[]: <*Punctuator ',' />
     #: <*Space:Space ' ' />
-    elements[]$:
-    <$String>
+    elements[]:
+    <String>
       openToken: <*Punctuator '"' balanced='"' balancedSpan='String' />
       content: <*StringContent '3' />
       closeToken: <*Punctuator '"' balancer />
