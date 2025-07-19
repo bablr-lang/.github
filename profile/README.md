@@ -50,6 +50,18 @@ We don't like monorepos. We think that smashing all the repos together encourage
 
 We think this tends to create a healthy, sustainable open-source ecosystem in the same way a tree is strong when its trunk supports many branches, twigs, and leaves. A tree with only a trunk is probably a dead tree.
 
+Our most important repositories are:
+
+- **[agast-helpers](https://github.com/bablr-lang/agast-helpers)**: Contains utilities for working with our public data structures
+- **[agast-vm](https://github.com/bablr-lang/agast-vm)**: The authority on what is a legal agAST tree
+- **[boot](https://github.com/bablr-lang/boot)**: Helps us break dependency cycles as a system defined in terms of itself
+- **[bablr-vm](https://github.com/bablr-lang/bablr-vm)**: The main BABLR implementation. Instructions are provided by a strategy
+- **[bablr-vm-strategy-parse](https://github.com/bablr-lang/bablr-vm-strategy-parse)**: Implements text parsing using class-based grammars and `bablr-vm`
+- **[bablr](https://github.com/bablr-lang/bablr)**: A thin wrapper around `bablr-vm` and `bablr-vm-strategy-parse`
+- **[bablr-cli](https://github.com/bablr-lang/bablr-cli)**: A node CLI for evaluating BABLR grammars
+- **[regex-vm](https://github.com/bablr-lang/regex-vm)**: A streaming regex engine which accepts BABLR-format parse trees. The oldest repo!
+- **[language-en-cstml](https://github.com/bablr-lang/language-en-cstml)**: A BABLR grammar for parsing CSTML.
+
 ## We accept donations!
 
 The first five years of initial development work on this project were full time without compensation. If you are excited about the direction of our work and you are in a position to be able, we would love support on [OpenCollective](https://opencollective.com/bablr). Such contributions would in a very practical sense ensure our skilled team's ability to continue to focus on shipping the best possible software for everyone, for free!
