@@ -68,4 +68,4 @@ The first five years of initial development work on this project were full time 
 
 ## Code of Conduct
 
-We don't maintain a formal code of conduct. This does not mean that all behavior is permissible, but rather that we recognize that creating a welcoming community requires continuous effort and diplomacy. We ask for your help to create a friendly "no wrong doors" culture, and we ask for grace and guidance from our community if and when we do not live up to our own promises and principles.
+We don't maintain a formal code of conduct. This does not mean that all behavior is permissible, but rather that we recognize that creating a welcoming community requires continuous effort and diplomacy. We ask for your help to create a friendly ["no wrong doors"](https://lethain.com/no-wrong-doors/) culture, and we ask for grace and guidance from our community if and when we do not live up to our own promises and principles.
