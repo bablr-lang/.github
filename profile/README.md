@@ -27,7 +27,7 @@ Our main portal for documentation and knowledge about the project is our website
 The easiest way to get started with BABLR is our node CLI: https://www.npmjs.com/package/@bablr/cli
 
 ```bash
-bablr -l @bablr/language-en-cstml -p Node <<< '<BooleanLiteral> "true" </>'
+bablr -l @bablr/language-en-cstml -p Node <<< '<*BooleanLiteral> "true" </>'
 ```
 
 Try passing the `-v` flag to see a trace of the parser!
