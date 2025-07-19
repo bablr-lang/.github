@@ -20,9 +20,9 @@ We know the extra-dimensional power of a universal data model from another techn
 
 In addition to helping people be code literate we also aim to help tools be code-literate. Our structured data model can made semantic merging a reality, wildly reduce costs of maintaining software forks, create an explosion of new parsers, lint rules, templates, and semantic edit helpers. While this project was conceived of and executed with human ingenuity and human labor, we also expect that offering a first-of-its-kind streaming LR parser framework will be a tremendous boon to LLM providers looking to enforce structural constraints on code or other structured data being generated on the fly.
 
-Overall we strive to make the most widely-usable technologies we can imagine so that we can be inclusive of the broadest group of users, core contributors, parser authors, tool developers... By welcoming pluralism and diversity we strengthen our community and make the strongest possible argument for its long term survival. If you want to be part of our communitty we welcome involvement through any and all channels.
+Overall we strive to make the most widely-usable technologies we can imagine so that we can be inclusive of the broadest group of users, core contributors, parser authors, tool developers... By welcoming pluralism and diversity we strengthen our community and make the strongest possible argument for its long term survival. If you want to be part of our community we welcome your involvement!
 
-Our main portal for documentation and knowledge about the project is our website: [https://bablr.org](https://bablr.org).
+Our main portal for documentation and knowledge about the project is our website: [https://bablr.org](https://bablr.org). Our engineering and support discussions happen on [Discord](https://discord.gg/NfMNyYN6cX).
 
 ## Accessibility
 
@@ -41,6 +41,14 @@ bablr -l @bablr/language-en-cstml -p Node <<< '<*BooleanLiteral> "true" </>'
 ```
 
 Try passing the `-v` flag to see a trace of the parser!
+
+## Scope
+
+The BABLR project has an extremely ambitious vision. If you were to track the growth of the project over time you would find that its abilities and ambitions have always evolved in tandem: implementation chasing imagination.
+
+The vision is roughly to create a new web browser and a new IDE, and possibly to fuse the existing concepts of "web browser", "IDE" and "VCS" together completely and permanently. We want to show that there exists a math that can describe the inner workings of each of these frontends equally well. It's a bit like trying to find the perfect shape for a Lego brick. If we're successful it should be possible for you to use our digital building blocks to create [almost anything you can imagine](https://www.youtube.com/watch?v=aPO5JaShu2U).
+
+One advantage we have in this regard is that BABLR isn't defined using any code generation or other such weird tricks. It's just a bunch of highly composable immutable primitives and a lot of very flexible functional scripting. A system like this can be constructed in any language with basic lambda calculus, and once constructed you'll have exactly the tools you need to carry out such a cross-language program translation in practice!
 
 ## A word about repository structure
 
