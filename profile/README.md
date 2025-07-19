@@ -28,7 +28,7 @@ Our main portal for documentation and knowledge about the project is our website
 
 Our biggest accessibility goal is to support a new generation of engineers and hackers writing code on phones, tablets, or even VR headsets.
 
-We also believe a that the presence of a universal DOM in IDEs would be a boon for accessibility technologies as it is in the web. You can try [voice coding with Cursorless](https://www.cursorless.org/) for example, but you have to switch to VSCode first.
+We also believe a that the presence of a universal DOM in IDEs would be a boon for accessibility technologies as it is in the web. If you want to you can try [voice coding with Cursorless](https://www.cursorless.org/) for example, but as things are now you will have to switch to VSCode first.
 
 We also wish to be able to offer our code accessibility experience to speakers of all human languages, not just English. This is why our grammars use the `-en` prefix. We welcome translations of our grammars to other natural languages.
 
