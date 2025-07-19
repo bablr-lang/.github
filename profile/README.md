@@ -48,7 +48,9 @@ The BABLR project has an extremely ambitious vision. If you were to track the gr
 
 The vision is roughly to create a new web browser and a new IDE, and possibly to fuse the existing concepts of "web browser", "IDE" and "VCS" together completely and permanently. We want to show that there exists a math that can describe the inner workings of each of these frontends equally well. It's a bit like trying to find the perfect shape for a Lego brick. If we're successful it should be possible for you to use our digital building blocks to create [almost anything you can imagine](https://www.youtube.com/watch?v=aPO5JaShu2U).
 
-One advantage we have in this regard is that BABLR isn't defined using any code generation or other such weird tricks. It's just a bunch of highly composable immutable primitives and a lot of very flexible functional scripting. A system like this can be constructed in any language with basic lambda calculus, and once constructed you'll have exactly the tools you need to carry out such a cross-language program translation in practice!
+Our biggest challenge is that we've chosen to use a new kind of data model which no other tool is using. This means we have to write new parsers for everything. Since this is potentially very onerous work, every attempt has been made to provide a high-level, polished well-tooled, tight-feedback-loop environment for defining parsers.
+
+One advantage we have is that BABLR isn't defined using any code generation or other such weird tricks. It's just a bunch of highly composable immutable primitives and a lot of very flexible functional scripting. A system like this can be constructed in any language with basic lambda calculus, and once constructed you'll have exactly the tools you need to carry out such a cross-language program translation in practice! If you're intersted in taking on a new VM implementation, please get in touch to coordinate and we'll do anything we can to help.
 
 ## A word about repository structure
 
