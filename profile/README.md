@@ -16,6 +16,8 @@ I mention this because it shows us a more general kind of trick we can do: we ca
 
 To make a `<code>` element on a web page feel like window to another world the head tracking example is still instructive: we need a model of whatever is outside the window so that we can offer many different perspectives. It's a universal model of code made for this purpose that the BABLR project aims to define and popularize.
 
+We know the extra-dimensional power of a universal data model from another technology that has made itself ubiquitous: the web browser. In addition to the 2D text of a web page browsers offer us the ability (I might even say freedom) to dive into a richer structure which is not normally visible. Browsers are even starting to help users conceive of that richer structure using actual extra dimensions, with Microsoft Edge [offering a 3D view into the structural model of a page](https://youtu.be/BZAH8ZXhHZA?si=bvi-musXAi6TXhnb).
+
 In addition to helping people be code literate we also aim to help tools be code-literate. Our structured data model can made semantic merging a reality, wildly reduce costs of maintaining software forks, create an explosion of new parsers, lint rules, templates, and semantic edit helpers. While this project was conceived of and executed with human ingenuity and human labor, we also expect that offering a first-of-its-kind streaming LR parser framework will be a tremendous boon to LLM providers looking to enforce structural constraints on code or other structured data being generated on the fly.
 
 Overall we strive to make the most widely-usable technologies we can imagine so that we can be inclusive of the broadest group of users, core contributors, parser authors, tool developers... By welcoming pluralism and diversity we strengthen our community and make the strongest possible argument for its long term survival. If you want to be part of our communitty we welcome involvement through any and all channels.
@@ -40,6 +42,10 @@ We don't like monorepos. We think that smashing all the repos together encourage
 
 We think this tends to create a healthy, sustainable open-source ecosystem in the same way a tree is strong when its trunk supports many branches, twigs, and leaves. A tree with only a trunk is probably a dead tree.
 
+## We accept donations!
+
+The first five years of initial development work on this project were full time without compensation. If you are excited about the direction of our work and you are in a position to be able, we would love support on [OpenCollective](https://opencollective.com/bablr). Such contributions would in a very practical sense ensure our skilled team's ability to continue to focus on shipping the best possible software for everyone, for free!
+
 ## Code of Conduct
 
-We don't maintain a formal code of conduct. This does not mean that all behavior is permissible, but rather that we recognize that creating a welcoming community requires continuous effort and diplomacy. We ask for your help to create a friendly ["no wrong doors"](https://lethain.com/no-wrong-doors/) culture, and we ask for grace and guidance from our community if and when we do not live up to our own promises and principles.
+We don't maintain a formal code of conduct. This does not mean that all behavior is permissible, but rather that we recognize that creating a welcoming community requires continuous effort and diplomacy. We ask for your help to create a friendly "no wrong doors" culture, and we ask for grace and guidance from our community if and when we do not live up to our own promises and principles.
